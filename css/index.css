@@ -1,0 +1,48 @@
+body{
+  background-image: url(../img/macOS_BigSur_壁纸5K/macOS-Big-Sur-Vector-Wave-Wallpaper-iDownloadBlog.jpg);
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+a{
+  color: white;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.container{
+  margin: 0 auto;
+  width: 1400px;
+}
+.header{
+  height: 43px;
+  color: white;
+}
+.header .container{
+  border-bottom: 1px solid white;
+  line-height: 43px;
+  text-align: center;
+}
+.header .container .header-content-left{
+  float: left;
+}
+.header .container .header-content-left .header-content-list .header-content-node{
+  display: inline-block;
+  margin: 0 20px;
+}
+.header .container .header-content-left .header-content-list .header-content-node a{
+  color: white;
+}
+.header .container .header-content-right{
+  float: right;
+}
+.header .container .header-content-right .header-login{
+  margin: 0 20px;
+}
+.header .container .header-content-right .header-login a p{
+  display: inline-block;
+}
+.content{
+  height: 2000px;
+}
